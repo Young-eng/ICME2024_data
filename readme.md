@@ -4,7 +4,7 @@
 
 1. the dataset comes from Animal Kingdom(https://sutdcv.github.io/Animal-Kingdom/Animal_Kingdom/action_recognition/README_action_recognition.html)
 
-2. While action classification labels in this dataset are multi-label, here I only take one label for each clip to make it adapted for the classification algorithm, like Kinetics-400 dataset format.I will provide the train.csv and val.csv which I used for training and validation. I only used **10,000 video clips**, which is approximately**one-third of clips in dataset, 8000 clips from training set and 2000 clips from test set set respectively**. I did not used any images for training and validation. I will provide the python script which is used for generating these two csv files.
+2. While action classification labels in this dataset are multi-label, here I only take one label for each clip to make it adapted for the action classification algorithm, like Kinetics-400 dataset format.I will provide the train.csv and val.csv which I used for training and validation. I only used **10,000 video clips**, which is approximately**one-third of clips in dataset, 8000 clips from training set and 2000 clips from test set set respectively**. I did not used any images for training and validation. I will provide the python script which is used for generating these two csv files.
 
 ### Algorithm
 
@@ -17,7 +17,7 @@
 4. Here metrics are top1 and top5 accuracy. While I used one label for each clip, original clips are multi-label, so top5 accuracy may be more credible.
 The top1 Accuracy is more than 45%, and top5 max accuracy is more than 80%
 
-5. There are many things to do for future improvements. For example, modify the model structure to adapt for Animal Kingdom dataset or other downstream works if needed.
+5. There are many things to do for future improvements. For example, modify the model structure to adapt for Animal Kingdom dataset or other downstream works if needed. And the metrics in this algorithm is little different with metrics in Animal Kingdom dataset. 
 
 6. I will provide all scripts, files and results. My work for this challenge is not perfect. I think it is a good start for the future, because I did not use all images and video data in this dataset.
 
