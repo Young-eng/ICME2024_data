@@ -21,7 +21,7 @@ The top1 Accuracy is more than 45%, and top5 max accuracy is more than 80%
 
 6. I will provide all scripts, files and results. My work for this challenge is not perfect. I think it is a good start for the future, because I did not use all images and video data in this dataset.
 
-7. Fine-tuning model linke is [Here](https://drive.google.com/file/d/1P5WYJbCvgFrB4_B6JuwU5LcA5-ciBAxF/view?usp=sharing)
+7. Fine-tuned model link is here, [checkpoint_best](https://drive.google.com/file/d/1P5WYJbCvgFrB4_B6JuwU5LcA5-ciBAxF/view?usp=sharing)
 
 8. After finishing final epoch of fine-tuning, it seems there is a bug when mering final results while there is no any other .txt files in output directory.
 
